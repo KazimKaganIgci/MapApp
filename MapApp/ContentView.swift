@@ -84,10 +84,8 @@ struct ContentView: View {
                 .presentationCornerRadius(12)
         })
         .mapControls{
-            MapCompass()// kuzey güney
-            MapUserLocationButton() // user location button
-            
-            
+            MapCompass()
+            MapUserLocationButton() 
         }
     }
 }
@@ -137,23 +135,9 @@ extension ContentView {
     }
 }
 
-
-
 #Preview {
     ContentView()
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 //struct MapLocation: Identifiable {
 //    let id = UUID()
@@ -210,25 +194,6 @@ extension ContentView {
 //        )
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //import SwiftUI
 //import MapKit
@@ -321,5 +286,3 @@ extension ContentView {
 //        
 //    }
 //}
-
-
