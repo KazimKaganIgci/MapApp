@@ -14,7 +14,6 @@ struct ContentView: View {
     @State private var result = [MKMapItem]()
     @State private var mapSelection: MKMapItem?
     @State private var showDetail = false
-    
     @State private var getDirections = false
     @State private var routeDisplaying = false
     @State private var route: MKRoute?
