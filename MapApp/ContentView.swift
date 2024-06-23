@@ -20,9 +20,6 @@ struct ContentView: View {
     @State private var route: MKRoute?
     @State private var routeDestination: MKMapItem?
 
-
-
-
     var body: some View {
         Map(position: $cameraPosition, selection: $mapSelection) {
             Annotation("Location", coordinate: .userLocation) {
