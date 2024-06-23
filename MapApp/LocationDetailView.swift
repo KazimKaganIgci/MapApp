@@ -14,7 +14,6 @@ struct LocationDetailView: View {
     @State private var lookAroundScene: MKLookAroundScene?
     @Binding var getDirections: Bool
 
-    
     var body: some View {
         VStack {
             HStack {
@@ -89,6 +88,7 @@ struct LocationDetailView: View {
         .padding()
     }
 }
+
 extension LocationDetailView {
     func fetchLookAroundPreview() {
         if let mapSelection {
